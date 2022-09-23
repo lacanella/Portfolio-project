@@ -1,17 +1,26 @@
 :root {
   --branding-color: #6c63ff;
   --headind-font-family: "Lora", serif;
+  --secondary-font-color: #272142;
 }
 
 body {
   font-family: var(--headind-font-family);
 }
 h1 {
-  font-size: 66px;
+  font-size: 76px;
   font-weight: 700;
   line-height: 128px;
   letter-spacing: 0em;
   text-align: center;
+}
+h2 {
+  font-size: 64px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background-color: #f9f7fe;
@@ -22,12 +31,12 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--secondary-font-color);
 }
-.hero h4 {
+.hero h2 {
   line-height: 2;
   font-size: 24px;
-  color: #272142;
+  color: var(--secondary-font-color);
 }
 .btn {
   background: var(--branding-color);
@@ -36,4 +45,37 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline {
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  background: white;
+  border: 1px solid var(--branding-color);
+}
+.project-discription {
+  padding: 60px 60px;
+}
+img {
+  width: 560px;
+  height: 560px;
+  left: 67px;
+  top: 1136px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 80px;
+    margin-top: 30px;
+  }
+  h2 {
+    font-size: 42px;
+    margin-top: 15px;
+  }
+  .project-discription {
+    padding: 0;
+    text-align: center;
+  }
 }
