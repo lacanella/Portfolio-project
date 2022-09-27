@@ -99,3 +99,12 @@ a {
   width: 380px;
   height: 500px;
 }
+.work-section h1 {
+  font-size: 20px;
+}
+.work-section h3 {
+  margin-top: 20px;
+}
+.work-section p {
+  text-align: center;
+}
