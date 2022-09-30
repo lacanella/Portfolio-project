@@ -26,6 +26,10 @@
     />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Karina is a front-end engineer based in Ukraine. "
+    />
     <title>
       Karina Agakhanova Portfolio - front-end developer from Ukraine
     </title>
@@ -33,12 +37,14 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/"><i class="fa-solid fa-feather-pointed"></i></a>
+        <a href="/" title="Homepage"
+          ><i class="fa-solid fa-feather-pointed"></i
+        ></a>
         <ul>
-          <li class="active"><a href="/">home</a></li>
-          <li><a href="/about.html"> about</a></li>
-          <li><a href="/work.html"> work</a></li>
-          <li><a href="/contact.html"> contact</a></li>
+          <li class="active"><a href="/" title="Homepage">home</a></li>
+          <li><a href="/about.html" title="About Karina"> about</a></li>
+          <li><a href="/work.html" title="Karina's work"> work</a></li>
+          <li><a href="/contact.html" title="Contact Karina"> contact</a></li>
         </ul>
       </nav>
     </div>
@@ -46,7 +52,9 @@
       <p>👋Hello! I am</p>
       <h1>Karina Agakhanova</h1>
       <h2 class="mb-5">Front-end developer, based in Kyiv 🇺🇦</h2>
-      <div><a href="/contact.html" class="btn">Contact me</a></div>
+      <div>
+        <a href="/contact.html" title="Contact me" class="btn">Contact me</a>
+      </div>
     </div>
     <p class="text-center m-5">
       Featured Project which my best projects be choice to show
@@ -56,7 +64,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/greekyogurt.png"
-            alt="greek yogurt project"
+            alt="greek yogurt project preview"
             class="img-fluid border rounded"
           />
         </div>
@@ -89,7 +97,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/KA-weather.png"
-            alt="greek yogurt project"
+            alt="weather app preview"
             class="img-fluid border rounded"
           />
         </div>
@@ -98,7 +106,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/portfolio-project.png"
-            alt="greek yogurt project"
+            alt="portfolio project preview"
             class="img-fluid border rounded"
           />
         </div>
@@ -125,25 +133,52 @@
           <p class="text-muted">Let's work together</p>
         </div>
         <div>
-          <a href="" class="btn btn-branding">contact me</a>
+          <a
+            href="/contact.html"
+            title="Contact Karina"
+            class="btn btn-branding"
+            >contact me</a
+          >
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <a href="mailto:a.korizza5@gmail.com" class="email-link"
+        <a
+          href="mailto:a.korizza5@gmail.com"
+          class="email-link"
+          title="email Karina"
           >a.korizza5@gmail.com</a
         >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://www.instagram.com/karina.codess" target="_blank"
+        <a
+          href="https://www.instagram.com/karina.codess"
+          title="Instagram profile"
+          target="_blank"
           ><i class="fa-brands fa-instagram"></i
         ></a>
-        <a href="https://github.com/lacanella" target="_blank"
+        <a
+          href="https://github.com/lacanella"
+          title="GitHub Profile"
+          target="_blank"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <a href="https://www.facebook.com/karina.posts" target="_blank"
+        <a
+          href="https://www.facebook.com/karina.posts"
+          title="Facebook Profile"
+          target="_blank"
           ><i class="fa-brands fa-facebook"></i
         ></a>
       </div>
+      <p class="text-center m-5">
+        This project was coded by Karina Agakhanova and it's
+        <a
+          href="https://github.com/lacanella/Portfolio-project"
+          title="Portfolio Project on GitHub"
+          target="_blank"
+        >
+          open-sourced</a
+        >
+      </p>
     </footer>
   </body>
 </html>
